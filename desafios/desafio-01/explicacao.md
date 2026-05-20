@@ -1,13 +1,15 @@
 # Explicação — Desafio 01
 
-**Aluno:** _(seu nome)_  
-**Data:** _(data)_
+**Aluno:** Robert Gonzaga  
+**Data:** 20/05
 
 ---
 
 ## O que meu programa faz
 
-_(Descreva em suas palavras o que cada parte do código faz. Não copie o enunciado — explique como você pensou na solução.)_
+Meu programa pergunta ao usuario seu nome, ano de nascimento e hobbies;
+depois ele subtrai 2026 (ano atual) menos o ano de nascimento, assim obtemos a idade da pessoa;
+depois ele imprime na tela essas informacoes
 
 ---
 
@@ -15,10 +17,12 @@ _(Descreva em suas palavras o que cada parte do código faz. Não copie o enunci
 
 > Por que é necessário converter o resultado do `input()` antes de calcular a idade? O que acontece se não converter?
 
-_(Sua resposta aqui — use suas próprias palavras. Pode incluir exemplos de código se ajudar a explicar.)_
+é preciso converter pois a funcao "input()" recebe por padrao string;
+logo, mesmo que o usuario digite numeros, eles não serão tratados como tal, impossibilitando fazer calculos, nesse caso eu utilizei a funcao "int()", convertendo o input em inteiro
 
 ---
 
 ## Dificuldades encontradas
 
 _(Opcional: o que foi difícil? O que você pesquisou para resolver?)_
+pesquisei a sintaxe de conversao para inteiro em python
