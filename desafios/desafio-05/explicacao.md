@@ -1,6 +1,6 @@
 # Explicação — Desafio 05 — Gerenciador de Compras
 
-**Aluno:** _(seu nome)_
+**Aluno:** Robert Gonzaga
 **Data:** _(data)_
 
 ---
